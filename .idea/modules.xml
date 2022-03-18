@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day01Html_CSS/Day01Html_CSS.iml" filepath="$PROJECT_DIR$/Day01Html_CSS/Day01Html_CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day02JavaScript/Day02JavaScript.iml" filepath="$PROJECT_DIR$/Day02JavaScript/Day02JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWebBase.iml" filepath="$PROJECT_DIR$/JavaWebBase.iml" />
+    </modules>
+  </component>
+</project>
