@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Day01Html_CSS/Day01Html_CSS.iml" filepath="$PROJECT_DIR$/Day01Html_CSS/Day01Html_CSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day02JavaScript_Basic/Day02JavaScript_Basic.iml" filepath="$PROJECT_DIR$/Day02JavaScript_Basic/Day02JavaScript_Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day03JavaScript_Advanced/Day03JavaScript_Advanced.iml" filepath="$PROJECT_DIR$/Day03JavaScript_Advanced/Day03JavaScript_Advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWebBase.iml" filepath="$PROJECT_DIR$/JavaWebBase.iml" />
     </modules>
   </component>
