@@ -253,7 +253,7 @@
 				    isNaN():判断一个值是否是NaN
 				        * NaN六亲不认，连自己都不认。NaN参与的==比较全部问false
 
-				    eval():讲 JavaScript 字符串，并把它作为脚本代码来执行。
+				    eval():将 JavaScript 字符串，并把它作为脚本代码来执行。
                 3. URL编码
                    传智播客 =  %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
 
