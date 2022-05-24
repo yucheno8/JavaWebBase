@@ -99,7 +99,7 @@
 			6. 流程控制语句：
 				1. if...else...
 				2. switch:
-					* 在java中，switch语句可以接受的数据类型： byte int shor char,枚举(1.5) ,String(1.7)
+					* 在java中，switch语句可以接受的数据类型： byte int short char,枚举(1.5) ,String(1.7)
 						* switch(变量):
 							case 值:
 					* 在JS中,switch语句可以接受任意的原始数据类型
