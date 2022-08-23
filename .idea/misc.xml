@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Day06Tomcat" />
+    <file type="web" url="file://$PROJECT_DIR$/Day06TomcatServlet" />
     <file type="web" url="file://$PROJECT_DIR$/Day07Tomcat/Day07Tomcat" />
   </component>
   <component name="MavenProjectsManager">
@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/Day07Tomcat/Day07Tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/Day06Tomcat/Day06Tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/Day06TomcatServlet/Day06Servlet/pom.xml" />
       </list>
     </option>
   </component>
