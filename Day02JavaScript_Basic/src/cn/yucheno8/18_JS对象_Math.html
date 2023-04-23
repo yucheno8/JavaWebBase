@@ -22,11 +22,11 @@
          *
          */
 
-        document.write(Math.PI +"<br>");
+        document.write(Math.PI +"<br>"); // 3.141592653589793
         document.write(Math.random() +"<br>");
-        document.write(Math.round(3.14) +"<br>");
-        document.write(Math.ceil(3.14) +"<br>");
-        document.write(Math.floor(3.14) +"<br>");
+        document.write(Math.round(3.14) +"<br>"); // 3
+        document.write(Math.ceil(3.14) +"<br>"); // 4
+        document.write(Math.floor(3.14) +"<br>"); // 3
 
         /**
          * 取 1~100之间的随机整数
@@ -34,14 +34,10 @@
          *      2. 乘以 100 --> [0,99.9999] 小数
          *      3. 舍弃小数部分 ：floor --> [0,99] 整数
          *      4. +1 -->[0,99] 整数 [1,100]
-         *
-         *
          */
 
        var number =  Math.floor((Math.random() * 100)) + 1;
        document.write(number);
-
-
 
     </script>
 </head>
