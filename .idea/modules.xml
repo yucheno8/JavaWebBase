@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Day04BootStrap/Day04BootStrap.iml" filepath="$PROJECT_DIR$/Day04BootStrap/Day04BootStrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day05XML/Day05XML.iml" filepath="$PROJECT_DIR$/Day05XML/Day05XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day06TomcatServlet/Day06Servlet/Day06Servlet.iml" filepath="$PROJECT_DIR$/Day06TomcatServlet/Day06Servlet/Day06Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day07servlet&amp;http&amp;request/Day07servlet_http_request/Day07servlet_http_request.iml" filepath="$PROJECT_DIR$/Day07servlet&amp;http&amp;request/Day07servlet_http_request/Day07servlet_http_request.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWebBase.iml" filepath="$PROJECT_DIR$/JavaWebBase.iml" />
     </modules>
   </component>

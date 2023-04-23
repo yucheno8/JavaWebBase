@@ -17,7 +17,7 @@
                             2. 请求参数大小是有限制的。
                             3. 不太安全。
                         post：
-                            2. 请求参数不会再地址栏中显示。会封装在请求体中(HTTP协议后讲解)
+                            2. 请求参数不会在地址栏中显示。会封装在请求体中(HTTP协议后讲解)
                             2. 请求参数的大小没有限制。
                             3. 较为安全。
 
@@ -27,7 +27,13 @@
 
 <form action="#" method="get">
 
+    <!--
+        <label> 标签为 input 元素定义标签（label）。
+        label 元素不会向用户呈现任何特殊的样式。不过，它为鼠标用户改善了可用性，因为如果用户点击 label 元素内的文本，则会切换到控件本身。
+        <label> 标签的 for 属性应该等于相关元素的 id 元素，以便将它们捆绑起来。
+    -->
     <label for="username"> 用户名 </label>：<input type="text" name="username" placeholder="请输入用户名" id="username"><br>
+    <!--该提示会在输入字段为空时显示，并会在字段获得焦点时消失。注释：placeholder 属性适用于以下的 <input> 类型：text, search, url, telephone, email 以及 password。-->
     密码：<input type="password" name="password" placeholder="请输入密码"><br>
     性别：<input type="radio" name="gender" value="male"> 男
          <input type="radio" name="gender" value="female" checked>  女
