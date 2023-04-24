@@ -27,10 +27,12 @@
         //1.获取按钮
         var goItcast = document.getElementById("goItcast");
         //2.绑定单击事件
-        goItcast.onclick = function(){
+        goItcast.onclick = function () {
             //3.去访问www.itcast.cn官网
-            location.href = "https://www.baidu.com";
-        }
+            // location.href = "https://www.baidu.com";
+            // location.assign("https://www.baidu.com"); // 载入一个新的文档。就相当于一个链接，跳转到指定的url，当前页面会转为新页面内容，可以点击后退返回上一个页面。
+            location.replace("https://www.baidu.com"); // 用新的文档替换当前文档。这个方法是替换当前窗口页面，前后两个页面共用一个窗口，所以是没有后退返回上一页的。
+        };
 
     </script>
 </body>
