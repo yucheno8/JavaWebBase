@@ -38,16 +38,16 @@ public class RequestDemo01 extends HttpServlet {
         // 1. 获取请求方式 ：GET
         String method = request.getMethod();
         System.out.println(method);
-        // 2. (*)获取虚拟目录：/day14
+        // 2. (*)获取虚拟目录：/day07
         String contextPath = request.getContextPath();
         System.out.println(contextPath);
-        // 3. 获取Servlet路径: /demo1
+        // 3. 获取Servlet路径: /RequestDemo01
         String servletPath = request.getServletPath();
         System.out.println(servletPath);
         // 4. 获取get方式请求参数：name=zhangsan
         String queryString = request.getQueryString();
         System.out.println(queryString);
-        // 5. (*)获取请求URI：/day14/demo1
+        // 5. (*)获取请求URI：/day07/RequestDemo01
         String requestURI = request.getRequestURI();
         System.out.println(requestURI);
         StringBuffer requestURL = request.getRequestURL();

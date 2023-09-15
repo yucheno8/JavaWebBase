@@ -2,6 +2,9 @@ package cn.yucheno8.web.servlet;
 
 import javax.servlet.*;
 import java.io.IOException;
+/**
+ * Servlet的方法
+ */
 
 public class ServletDemo02 implements Servlet {
 

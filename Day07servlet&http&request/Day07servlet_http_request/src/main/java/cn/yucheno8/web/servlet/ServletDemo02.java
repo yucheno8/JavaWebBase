@@ -12,4 +12,4 @@ public class ServletDemo02 extends GenericServlet {
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("demo02...");
     }
-}
+}   

@@ -25,7 +25,7 @@
 		* HttpServlet：对http协议的一种封装，简化操作
 			1. 定义类继承HttpServlet
 			2. 复写doGet/doPost方法
-	
+	 
 	7. Servlet相关配置
 		1. urlpartten:Servlet访问路径
 			1. 一个Servlet可以定义多个访问路径 ： @WebServlet({"/d4","/dd4","/ddd4"})
@@ -81,7 +81,7 @@
 		* 字符串格式：
 			POST /login.html	HTTP/1.1
 			Host: localhost
-			User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+			User-Agent: Mozill a/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
 			Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 			Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
 			Accept-Encoding: gzip, deflate
