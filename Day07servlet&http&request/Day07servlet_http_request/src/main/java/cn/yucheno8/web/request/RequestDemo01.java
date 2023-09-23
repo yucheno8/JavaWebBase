@@ -22,11 +22,11 @@ public class RequestDemo01 extends HttpServlet {
             4. 获取get方式请求参数：name=zhangsan
                 * String getQueryString()
             5. (*)获取请求URI：/day14/demo1
-                * String getRequestURI():		/day14/demo1
-                * StringBuffer getRequestURL()  :http://localhost/day14/demo1
+                * String getRequestURI():		/day07/RequestDemo01
+                * StringBuffer getRequestURL()  :http://localhost/day07/RequestDemo01
 
-                * URL:统一资源定位符 ： http://localhost/day14/demo1	中华人民共和国
-                * URI：统一资源标识符 : /day14/demo1					共和国
+                * URL:统一资源定位符 ： http://localhost/day07/RequestDemo01	中华人民共和国
+                * URI：统一资源标识符 : /day07/RequestDemo01					共和国
 
             6. 获取协议及版本：HTTP/1.1
                 * String getProtocol()

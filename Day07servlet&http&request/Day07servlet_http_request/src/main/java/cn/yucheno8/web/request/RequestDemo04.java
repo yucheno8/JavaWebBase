@@ -24,7 +24,9 @@ public class RequestDemo04 extends HttpServlet {
                 response.getWriter().write("播放电影...");
             } else {
                 // 盗链
-                System.out.println("想看电影吗？来优酷吧...");
+                // System.out.println("想看电影吗？来优酷吧...");
+                response.setContentType("text/html;charset=utf-8");
+                response.getWriter().write("想看电影吗？来优酷吧...");
             }
         }
     }

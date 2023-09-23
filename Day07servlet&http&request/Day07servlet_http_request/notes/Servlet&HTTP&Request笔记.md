@@ -25,7 +25,7 @@
 		* HttpServlet：对http协议的一种封装，简化操作
 			1. 定义类继承HttpServlet
 			2. 复写doGet/doPost方法
-	 
+	
 	7. Servlet相关配置
 		1. urlpartten:Servlet访问路径
 			1. 一个Servlet可以定义多个访问路径 ： @WebServlet({"/d4","/dd4","/ddd4"})
@@ -142,7 +142,7 @@
 				
 			3. 获取请求体数据:
 				* 请求体：只有POST请求方式，才有请求体，在请求体中封装了POST请求的请求参数
-				* 步骤：'
+				* 步骤：
 
 
 					1. 获取流对象
@@ -215,7 +215,7 @@
 				PASSWORD VARCHAR(32) NOT NULL
 			);
 
-		3. 创建包cn.itcast.domain,创建类User
+		3. 创建包cn.itcast.doma n,创建类User
 			package cn.itcast.domain;
 			/**
 			 * 用户的实体类

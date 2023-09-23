@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Day07servlet_http_request" />
         <module name="Day06Servlet" />
         <module name="Day06Tomcat" />
-        <module name="Day07servlet_http_request" />
+        <module name="Day07Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -10,7 +10,7 @@ import java.util.Enumeration;
 public class RequestDemo02 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // 演示获取请求投数据
+        // 演示获取请求头数据
 
         // 1.获取所有的请求头名称
         Enumeration<String> headerNames = request.getHeaderNames();
