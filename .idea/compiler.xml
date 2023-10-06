@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day08Response" />
         <module name="Day07servlet_http_request" />
+        <module name="day09Cookie_Session" />
         <module name="Day06Servlet" />
         <module name="Day06Tomcat" />
         <module name="Day07Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Day16Cookie_Session" target="1.8" />
       <module name="demo01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
