@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-    <form action="/day09Cookie_Session/loginServlet" method="post">
+    <form action="${pageContext.request.contextPath}/loginServlet" method="post">
         <table>
             <tr>
                 <td>用户名</td>
@@ -49,8 +49,13 @@
 
     </form>
 
-    <div><%=request.getAttribute("cc_error") == null ? "" : request.getAttribute("cc_error")%></div>
-    <div><%=request.getAttribute("login_error") == null ? "" : request.getAttribute("login_error")%></div>
+    ${requestScope.cc_error}
+    ${requestScope.login_error}
+
+    <%-- 可由${requestScope.cc_error}替换 --%>
+<%--    <div><%=request.getAttribute("cc_error") == null ? "" : request.getAttribute("cc_error")%></div>--%>
+    <%-- 可由${requestScope.login_error}替换 --%>
+<%--    <div><%=request.getAttribute("login_error") == null ? "" : request.getAttribute("login_error")%></div>--%>
 
 </body>
 </html>

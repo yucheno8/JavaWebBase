@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -18,6 +19,8 @@
         <option value="$PROJECT_DIR$/Day07servlet&amp;http&amp;request/Day07Test/pom.xml" />
         <option value="$PROJECT_DIR$/Day08Response/pom.xml" />
         <option value="$PROJECT_DIR$/Day09Cookie_Session/pom.xml" />
+        <option value="$PROJECT_DIR$/Day10_case/pom.xml" />
+        <option value="$PROJECT_DIR$/Day10_EL_JSTL/pom.xml" />
       </list>
     </option>
   </component>
