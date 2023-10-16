@@ -11,10 +11,14 @@
         <module name="Day07servlet_http_request" />
         <module name="day09Cookie_Session" />
         <module name="day10_case" />
+        <module name="Day11_Filter_Listener" />
         <module name="Day06Servlet" />
         <module name="Day06Tomcat" />
         <module name="Day07Test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day11Filter_Listener" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

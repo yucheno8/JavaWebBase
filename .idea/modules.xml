@@ -8,8 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/Day04BootStrap/Day04BootStrap.iml" filepath="$PROJECT_DIR$/Day04BootStrap/Day04BootStrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day05XML/Day05XML.iml" filepath="$PROJECT_DIR$/Day05XML/Day05XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWebBase.iml" filepath="$PROJECT_DIR$/JavaWebBase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day09Cookie_Session/day09Cookie_Session.iml" filepath="$PROJECT_DIR$/Day09Cookie_Session/day09Cookie_Session.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day10_case/day10_case.iml" filepath="$PROJECT_DIR$/Day10_case/day10_case.iml" />
     </modules>
   </component>
 </project>
