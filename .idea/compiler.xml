@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day08Response" />
-        <module name="day10_EL_JSTL" />
         <module name="Day07servlet_http_request" />
+        <module name="Day15_Redis" />
         <module name="day09Cookie_Session" />
-        <module name="day10_case" />
+        <module name="Day12_JQuery_Basic" />
+        <module name="Day13_JQuery_Advanced" />
         <module name="Day11_Filter_Listener" />
+        <module name="day10_EL_JSTL" />
+        <module name="Day14_Ajax_Json" />
+        <module name="day10_case" />
         <module name="Day06Servlet" />
         <module name="Day06Tomcat" />
         <module name="Day07Test" />
