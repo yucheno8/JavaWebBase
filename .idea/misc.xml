@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -33,6 +32,7 @@
         <option value="$PROJECT_DIR$/Day12_JQuery_Basic/pom.xml" />
         <option value="$PROJECT_DIR$/Day13_JQuery_Advanced/pom.xml" />
         <option value="$PROJECT_DIR$/Day14_Ajax_Json/pom.xml" />
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -16,6 +16,7 @@
         <module name="day10_EL_JSTL" />
         <module name="Day14_Ajax_Json" />
         <module name="day10_case" />
+        <module name="travel" />
         <module name="Day06Servlet" />
         <module name="Day06Tomcat" />
         <module name="Day07Test" />
@@ -23,6 +24,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="day11Filter_Listener" target="1.8" />
+      <module name="travel (1)" target="1.8" />
+      <module name="travel (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
