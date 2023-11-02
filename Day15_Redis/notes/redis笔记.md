@@ -116,7 +116,7 @@
 			1. 存储： hset key field value
 				127.0.0.1:6379> hset myhash username lisi
 				(integer) 1
-				127.0.0.1:6379> hset myhash password 123
+				127.0.0.1:6379> hset myhash password 12w3
 				(integer) 1
 			2. 获取： 
 				* hget key field: 获取指定的field对应的值
