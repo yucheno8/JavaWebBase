@@ -29,9 +29,13 @@ public class RouteServlet extends BaseServlet {
         String pageSizeStr = request.getParameter("pageSize");
         String cidStr = request.getParameter("cid");
 
+        // 接收rname 线路名称
+        String rname = request.getParameter("rname");
+        rname = new String(rname.getBytes("iso-8859-1"), "utf-8");
+
         // 2.处理参数
         int cid = 0; // 类别id
-        if (cidStr != null && cidStr.length() > 0) {
+        if (cidStr != null && cidStr.length() > 0 && !"null".equals(cidStr)) {
             cid = Integer.parseInt(cidStr);
         }
 
@@ -50,11 +54,27 @@ public class RouteServlet extends BaseServlet {
         }
 
         // 3.调用service查询PageBean对象
-        PageBean<Route> pb = routeService.pageQuery(cid, currentPage, pageSize);
+        PageBean<Route> pb = routeService.pageQuery(cid, currentPage, pageSize, rname);
 
         // 4.将PageBean对象序列化为json，返回
         writeValue(pb, response);
+    }
 
+    /**
+     * 根据id查询一个旅游线路的详细信息
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    public void findOne(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // 1.接收id
+        String rid = request.getParameter("rid");
+        // 2.调用service查询route对象
+        Route route = routeService.findOne(rid);
+
+        // 3.转为json写回客户端
+        writeValue(route, response);
 
     }
 
